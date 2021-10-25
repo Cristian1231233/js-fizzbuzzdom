@@ -10,21 +10,18 @@ for(let i = 1; i < 101; i++){
   row.append(box)
   box.innerHTML = i;
   console.log(box);
-
-  if(!(i % 3)){
-    box.innerHTML = 'fizz';
-    box.classList.add('greenwater');
-    console.log(box);
-  }
-  if(!(i % 5)){
-    box.innerHTML = 'buzz';
-    box.classList.add('choco');
-    console.log(box);
-  }
-  if((!(i % 5)) && (!(i % 3))){
+ if((!(i % 5)) && (!(i % 3))){
     box.innerHTML = 'fizzbuzz';
     box.classList.add('rossorosa');
-    console.log(box);
+    console.log('fizzbuzz',i);
+  }else if(!(i % 3)){
+    box.innerHTML = 'fizz';
+    box.classList.add('greenwater');
+    console.log('fizz',i);
+  }else if(!(i % 5)){
+    box.innerHTML = 'buzz';
+    box.classList.add('choco');
+    console.log('buzz',i);
   }
-  console.log(i);
+  
 }
