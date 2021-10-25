@@ -1,0 +1,29 @@
+
+body{
+    background-color: #083B4C;
+    color: white;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenwater{
+    background-color: #0BD6A1;
+}
+.choco{
+    background-color: #FFD166;
+}
+.rossorosa{
+    background-color: #F0466F;
+}
