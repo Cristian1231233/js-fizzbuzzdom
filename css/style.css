@@ -11,7 +11,7 @@ body{
 .box{
     width: 100px;
     height: 100px;
-    background-color: blueviolet;
+    background-color: #1389B2;
     margin: 10px;
     display: flex;
     justify-content: center;

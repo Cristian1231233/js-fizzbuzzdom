@@ -14,14 +14,17 @@ for(let i = 1; i < 101; i++){
   if(!(i % 3)){
     box.innerHTML = 'fizz';
     box.classList.add('greenwater');
+    console.log(box);
   }
   if(!(i % 5)){
-    box.innerHTML = 'fizz';
+    box.innerHTML = 'buzz';
     box.classList.add('choco');
+    console.log(box);
   }
   if((!(i % 5)) && (!(i % 3))){
-    box.innerHTML = 'fizz';
+    box.innerHTML = 'fizzbuzz';
     box.classList.add('rossorosa');
+    console.log(box);
   }
   console.log(i);
 }
